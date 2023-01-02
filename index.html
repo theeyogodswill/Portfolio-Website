@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Godswill Eyo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56ada9b33d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+           <nav>
+            <h6 class="logo">Godswill Eyo</h6>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+
+           <div class="header-text">
+            <p id="fedev">FRONT-END DEVELOPER</p>
+            <h1>Hi, I'm <span>Godswill</span><br><p class="details">Front-end developer focused on creating Web & Mobile applications. I really like different projects that solve
+                real problems.</p> </h1>
+           </div>
+         </div>
+    </div>
+<!-------------about------------------>
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Profile.jpg.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Godswill Eyo, I'm a Front-end Developer based in Lagos, Nigeria.<br>
+                    I'm passionate about interfaces, from their
+                    creation to development.<br> I like to learn more and more about the area, challenges
+                    that take me out of my comfort zone are the best.</p>
+           
+                <div class="tab-titles">
+                    <p class="tab-links active-link" id="skilllink" onclick="openTab('skills')" >Skills</p>
+                    <p class="tab-links" id="experiencelink" onclick="openExperience('experience')">Experience</p>
+                    <p class="tab-links" id="educationlink" onclick="openEducation('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Implementing Web/App Interfaces</li>
+                        <li><span>App Development</span><br>Building Andriod/IOS Apps</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Front-End Development Internship at Iqube Labs</li>
+                        <li><span>App Development</span><br>Building Andriod/IOS Apps</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018-2022</span><br>High School - Kings College</li>
+                        <li><span>2016-2018</span><br>High School - Federal Government College, Idoani, Ondo State.</li>
+                        <li><span>2010-2016</span><br>Primary School - Alpha Plus Primary School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!----------services--------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    I have been working in Web design for some months now, during which time I have completed a number of courses and certifications in related fields such as User Experience design and Front-end Development.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>As a UI/UX designer with few months of experience, I have developed a strong foundation in user-centered design principles and techniques. I have experience conducting user research, including interviews, surveys, and usability tests, to gather insights and inform design decisions. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design is the process of creating the visual and functional elements of a mobile or web application. It involves creating user flows, wireframes, prototypes, and high-fidelity mockups to communicate the app's visual and functional design.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+  <!---------------portfolio------------------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" class="project1">
+                <div class="layer">
+                    <h3>Triptok Website</h3>
+                    <p>Triptok is a travelling agency that aids users to get comfortable and affordable trips to desired locations easier and faster.</p>
+                    <a href="https://triptok-travel.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!------------------contact---------->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> eyogodswill1@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> +2349066275363</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/theeyogodswill" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/_eyothewave/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/theeyogodswill/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="email" name="Email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>   
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; Godswill. Made with <i class="fas fa-heart"></i> by Godswill Eyo</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <script>
+ 
+var tablinks = document.getElementbyClassName("tab-links");
+var tabcontents = document.getElementbyClassName("tab-contents");
+
+function openTab(skills) {
+  console.log('openTab'); 
+  document.getElementById('skills').style.display='inline-block' 
+  document.getElementById('experience').style.display='none' 
+  document.getElementById('education').style.display='none' 
+  
+}
+function openExperience(experience) {
+  console.log('open experience'); 
+  document.getElementById('skills').style.display='none' 
+  document.getElementById('experience').style.display='inline-block' 
+  document.getElementById('education').style.display='none'
+}
+function openEducation() {
+  console.log('open education'); 
+  document.getElementById('skills').style.display='none' 
+  document.getElementById('experience').style.display='none' 
+  document.getElementById('education').style.display='inline-block' 
+}
+
+
+
+
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+ </script> 
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu"); 
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwxGE0pxx2GZFv_ysqUrSMSlH3keOkJFlM1bKQ66FX96ewnkLWIMi5Eat8J-p_HlyJQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
